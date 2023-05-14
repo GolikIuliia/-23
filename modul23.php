@@ -70,7 +70,21 @@ class Auto extends Mekhanic
 }
 class Tank extends Mekhanic
 {    
-    
+    public function forwBack()
+    {
+
+    }
+    public function ManipulateOn()
+    {
+        
+    }
+    public function ManipulateOff()
+    {
+        
+    }
+    public function ManipulateStatus(){
+        
+    }
 }  
 class Special extends Mekhanic  
 {
@@ -86,6 +100,10 @@ class Special extends Mekhanic
     public function ManipulateStatus()
     {
         return $this->ladle;
+    }
+    public function forwBack()
+    {
+
     }
 
 }
